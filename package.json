@@ -1,6 +1,6 @@
 {
   "name": "vue-alerts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "iOS UIAlertController-styled alert plugin implemented in Vue 2.x",
   "main": "index.js",
   "scripts": {

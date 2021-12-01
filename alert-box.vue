@@ -163,7 +163,6 @@ export default {
   }),
   mounted() {
     this.$alert.instance = this;
-    console.log(this.$alert);
     window.addEventListener(
       "keydown",
       ((that) => {
@@ -337,8 +336,8 @@ export default {
         return fx(...args); // Will resolve immediately if the function is not async, or otherwise will resolve when the async function resolves.
       })().catch((e) => {
         // Using this method so that that fx is wrapped with an async function and its error is always handled within this function.
-        console.log(e);
         if (this.developerMode) {
+          console.log(e);
           console.log(fx);
           this.present(
             "[Developer] An internal error occured with the alertbox handler.",

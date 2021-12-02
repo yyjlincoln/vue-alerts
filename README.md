@@ -1,4 +1,4 @@
-<p align="center"><font size="7">Vue-Alerts</font></a></p>
+<p align="center"><font size="7">Vue-Alerts</font></p>
 
 <p align="center">
 <a href="https://badge.fury.io/js/vue-alerts"><img src="https://badge.fury.io/js/vue-alerts.svg" alt="npm version" height="18"></a>
